@@ -127,7 +127,7 @@
 }
 
 - (void)setSpacing:(CGFloat)spacing {
-    _spacing = MAX(spacing, 0);
+    _spacing = spacing;
     [self setNeedsDisplay];
 }
 
